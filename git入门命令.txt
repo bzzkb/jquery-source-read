@@ -1,22 +1,28 @@
-ÏÂÃæÓĞ´íÎóµÄ£¡£¡£¡
+ï»¿ä¸‹é¢æœ‰é”™è¯¯çš„ï¼ï¼ï¼
 
 
-³õÊ¼»¯£º
-git init£º³õÊ¼»¯Ò»¸ögit°æ±¾¿â
+åˆå§‹åŒ–ï¼š
+git initï¼šåˆå§‹åŒ–ä¸€ä¸ªgitç‰ˆæœ¬åº“
+
+å°†è¿œç¨‹æœåŠ¡å™¨å®šä¹‰ä¸ºåˆ«åmasterï¼Œå¦‚æœä½¿ç”¨git cloneå¤åˆ¶ä¸‹æ¥ï¼Œé»˜è®¤åˆ«åæ˜¯originã€‚
 git remote add master https://github.com/jacksparrow01/jquery-source-read.git
+
+é…ç½®gitçš„å…¨å±€å˜é‡ã€‚
 git config --global user.email ""
 git config --global user.name ""
 
-²Ù×÷¹ı³Ì£º
+æ“ä½œè¿‡ç¨‹ï¼š
 
-git add£º½«ÎÄ¼ş¼ÓÈëµ½°æ±¾¿âÖĞ
+git addï¼šå°†æ–‡ä»¶åŠ å…¥åˆ°ç‰ˆæœ¬åº“ä¸­
 
-git commit -a -m ''£º½«ĞŞ¸ÄµÄÎÄ¼şµÄÄÚÈİÌá½»µ½°æ±¾¿âÖĞ
+git commit -a -m ''ï¼šå°†ä¿®æ”¹çš„æ–‡ä»¶çš„å†…å®¹æäº¤åˆ°ç‰ˆæœ¬åº“ä¸­
 
-git push master master	½«±¾µØµÄmasterÌá½»µ½Ô¶³ÌµÄmasterÖĞ
+git push origin master1:master
+å°†æœ¬åœ°çš„master1åˆ†æ”¯æäº¤åˆ°è¿œç¨‹æœåŠ¡å™¨originï¼ˆåˆ«åï¼Œä½¿ç”¨cloneé»˜è®¤ä¸ºè¿™ä¸ªï¼‰çš„masteråˆ†æ”¯ä¸­
+masteræ˜¯ä¸»å¹²åˆ†æ”¯ã€‚
 
-git pull master	master	Ïàµ±ÓÚsvn update
+git pull origin	master	ç›¸å½“äºsvn update
 
 
-git clone git_url	½«Ô¶³Ì°æ±¾¿â¿½±´µ½±¾µØ
+git clone git_url	å°†è¿œç¨‹ç‰ˆæœ¬åº“æ‹·è´åˆ°æœ¬åœ°ï¼Œé»˜è®¤çš„è¿œç¨‹æœåŠ¡å™¨åˆ«åä¸ºorigin
 
