@@ -1,0 +1,17 @@
+下面有错误的！！！
+
+
+初始化：
+git init：初始化一个git版本库
+git remote add master https://github.com/jacksparrow01/jquery-source-read.git
+
+操作过程：
+git add：将文件加入到版本库中
+
+git commit：将文件提交到版本库中
+
+git push master test:master	将本地的test分支master拉取到本地的test的master分支下，可以这样
+	git push master master
+
+git pull master		相当于svn update
+
