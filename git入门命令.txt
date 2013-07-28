@@ -11,7 +11,7 @@ git config --global user.name ""
 
 git add：将文件加入到版本库中
 
-git commit -m ''：将文件提交到版本库中
+git commit -a -m ''：将修改的文件的内容提交到版本库中
 
 git push master master	将本地的master提交到远程的master中
 
