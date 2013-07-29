@@ -1,0 +1,37 @@
+下面有错误的！！！
+
+
+初始化：
+git init：初始化一个git版本库
+
+将远程服务器定义为别名master，如果使用git clone复制下来，默认别名是origin。
+git remote add master https://github.com/jacksparrow01/jquery-source-read.git
+
+配置git的全局变量。
+git config --global user.email ""
+git config --global user.name ""
+
+操作过程：
+
+git add：将文件加入到版本库中
+
+git commit -a -m ''：将修改的文件的内容提交到版本库中
+
+git push origin master1:master
+将本地的master1分支提交到远程服务器origin（别名，使用clone默认为这个）的master分支中
+master是主干分支。
+
+git pull origin  master	相当于svn update
+
+
+git clone git_url	将远程版本库拷贝到本地，默认的远程服务器别名为origin
+
+
+Git版本库迁移，从一个版本库迁移到另外一个版本库：
+1. git clone orign-src	将源版本库下载到本地
+2. git remote -v		查看源版本库的远程服务器地址的别名，一般为origin
+3. git remote set-url origin <dest-git-src>	将源版本库的远程服务器的别名改为目标版本库
+4. git pull origin master 	如果需要，将目标版本库更新到本地
+5. 如果发生了冲突，解决冲突
+6. git commit -a -m ''	解决冲突后，提交代码
+7. git push origin master 	将本地版本库的修改提交到远程服务器
